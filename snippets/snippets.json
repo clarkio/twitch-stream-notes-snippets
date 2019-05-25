@@ -1,0 +1,40 @@
+{
+  "Follower": {
+    "scope": "markdown",
+    "prefix": "flw",
+    "body": ["[@$1](https://twitch.tv/$1)$0"],
+    "description": "Create an entry for a new follower or Twitch account link"
+  },
+  "Subscriber": {
+    "scope": "markdown",
+    "prefix": "sub",
+    "body": ["[@$1](https://twitch.tv/$1) ($2 months)$0"],
+    "description": "Create an entry for a new subscriber"
+  },
+  "Gifted_Subscriber": {
+    "scope": "markdown",
+    "prefix": "gsub",
+    "body": [
+      "[@$1](https://twitch.tv/$1) ($2 months) `gifted by` [@$3](https://twitch.tv/$3)$0"
+    ],
+    "description": "Create an entry for a new gifted subscriber"
+  },
+  "Cheerer": {
+    "scope": "markdown",
+    "prefix": "chr",
+    "body": ["[@$1](https://twitch.tv/$1): $2 bits$0"],
+    "description": "Create an entry for a new cheerer"
+  },
+  "Raider": {
+    "scope": "markdown",
+    "prefix": "raid",
+    "body": ["[@$1](https://twitch.tv/$1): ($2/$3)$0"],
+    "description": "Create an entry for a new raider"
+  },
+  "Clip": {
+    "scope": "markdown",
+    "prefix": "clp",
+    "body": ["[$1]($2) `by` [@$3](https://twitch.tv/$3)$0"],
+    "description": "Create an entry for viewer created clip"
+  }
+}

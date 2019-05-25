@@ -1,0 +1,25 @@
+{
+  "name": "twitch-stream-notes-snippets",
+  "displayName": "Twitch Stream Notes Snippets",
+  "description": "Snippets to help with taking Twitch stream notes in Markdown",
+  "version": "0.0.1",
+  "publisher": "clarkio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarkio/twitch-stream-notes-snippets"
+  },
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
