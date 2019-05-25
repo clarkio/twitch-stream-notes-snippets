@@ -10,4 +10,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
-[0.1.1]: https://github.com/clarkio/twitch-stream-notes-snippets/compare/f400ad4...0.1.1
+[0.0.1]: https://github.com/clarkio/twitch-stream-notes-snippets/compare/f400ad48094a46...0.0.1
